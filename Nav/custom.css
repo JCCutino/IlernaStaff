@@ -1,0 +1,48 @@
+#Ilerna{
+    width: 6em;
+    text-align: center;
+    justify-content: center;
+}
+#imagen{
+    justify-content: center;
+    display: block;
+    margin-left: 30%;
+}
+#navbarNav{
+    justify-content: center;
+}
+
+#colorines{
+    color:#008FB0;
+    text-decoration: white;
+}
+
+@media only screen and (min-width: 768px){
+    #Ilerna{
+        width: 7em;
+    }
+    #imagen{
+        justify-content:flex-start;
+        margin-left: 20%;
+        
+    }
+    #navbarNav{
+        justify-content: center;
+        margin: 0%;
+    }
+}
+
+@media only screen and (min-width: 1024px)  {
+    #Ilerna{
+        width: 9em;
+    }
+    #imagen{
+        justify-content:flex-start;
+        margin-left: 20%;
+    }
+    #navbarNav{
+        justify-content: center;
+        margin: 0%;
+    }
+}
+
